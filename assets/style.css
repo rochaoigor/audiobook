@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(#3b1566,#5f4da8);
+    height:100vh;
+    color:#d6d6ea;
+    font-family:sans-serfif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.music-container {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+button {
+    background-color:inherit;
+    color:inherit;
+    border:none;
+}
+
+#track-information {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+#prev, #next {
+    font-size:3rem;
+    cursor:pointer;
+
+}
+
+#play-pause {
+    font-size:4rem;
+    cursor:pointer;
+}
+
+#container-buttons{
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+}
